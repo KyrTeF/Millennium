@@ -3,6 +3,7 @@
   nodejs,
   pnpm,
   faketty,
+  lib,
 }:
 stdenv.mkDerivation rec {
   pname = "millennium-sdk";
