@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   src = ../../sdk;
   pnpmDeps = pnpm.fetchDeps {
     inherit src version pname;
-    hash = builtins.readFile ./typescript/pnpmDepsHash.text;
+    hash = builtins.readFile ./pnpmDepsHash.text;
     fetcherVersion = 2;
   };
 
