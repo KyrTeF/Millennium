@@ -2,6 +2,7 @@
   stdenv,
   pnpm,
   nodejs,
+  lib,
 }:
 stdenv.mkDerivation rec {
   pname = "millennium-assets";
